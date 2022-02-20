@@ -1,0 +1,204 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="library/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+
+  <body>
+    <!-- Slider -->
+
+    <div class="slider" id="slider">
+      <div class="head position-fixed">
+        <div class="first-slide">
+          <div class="items">
+            <nav class="px-4 py-3">
+              <a class="item1" href="#home">Now Playing</a>
+              <a class="item2" href="#popular">Popular</a>
+              <a class="item3" href="#Top Rated">Top Rated</a>
+              <a class="item4" href="#Trending">Trending</a>
+              <a class="item5" href="#Upcoming">Upcoming</a>
+              <a class="item6" href="#contact">Contact US</a>
+            </nav>
+          </div>
+
+          <div class="slide-social justify-content-start px-3">
+            <ul class="d-flex list-unstyled">
+              <li>
+                <i class="fab fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="fab fa-twitter"></i>
+              </li>
+              <li>
+                <i class="fas fa-globe"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div class="copyRight">
+            <p>Copyright Â© 2019 All Rights Reserved.</p>
+          </div>
+        </div>
+
+        <div class="second-slide bg-light  justify-content-center">
+          <div class="img">
+            <img src="img/logo.png" alt="" />
+          </div>
+
+          <div class="Btn text-dark" id="Btn">
+            <span><i class="toggle fas fa-align-justify"></i></span>
+            <!-- <span><i class="close fas fa-align-justify fa-times"></i></span> -->
+          </div>
+
+          <!-- <div class="closeBtn text-dark " id="closeBtn">
+            
+          </div> -->
+
+          <div class="footer-social position-absolute">
+            <ul>
+              <li>
+                <i class="fas fa-globe"></i>
+              </li>
+
+              <li>
+                <i class="fas fa-share-alt"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End slider -->
+
+    <!-- Start Home -->
+    <div class="home py-5" id="home">
+      <div class="container">
+        <div class="search d-flex justify-content-around">
+          <input
+            type="text"
+            class="form form-control"
+            placeholder="get movies by word.."
+            id="getMovieWord"
+          />
+          <input
+            type="text"
+            class="form form-control"
+            placeholder="search...."
+            id="search"
+          />
+        </div>
+      </div>
+
+      <div class="container py-5">
+        <div class="row" id="rowData">
+          
+        </div>
+      </div>
+    </div>
+    <!-- End Home -->
+
+    <!-- Contact Us -->
+    <div class="contact-us py-5" id="contact">
+      <div class="container w-75 mx-auto">
+        <div class="contact-head">
+          <h2 class="text-white">Contact Us....</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <input
+              type="text"
+              class="form form-control"
+              placeholder="Enter Your Name"
+              id="name"
+            />
+            <div class="parent" id="validationName">
+              
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <input
+              type="email"
+              class="form form-control"
+              placeholder="Enter Your Email"
+              id="email"
+            />
+
+            <div class="parent" id="validationEmail">
+
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6">
+            <input
+              type="text"
+              class="form form-control"
+              placeholder="Enter Phone"
+              id="phone"
+            />
+            <div class="parent" id="validationPhone">
+              
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6">
+            <input
+              type="number"
+              class="form form-control"
+              placeholder="Enter Age"
+              id="age"
+            />
+
+            <div class="parent" id="ageInput">
+              
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6">
+            <input
+              type="password"
+              class="form form-control"
+              placeholder="Enter Password"
+              id="password"
+            />
+
+            <div class="parent" id="validationPassword">
+              
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6">
+            <input
+              type="password"
+              class="form form-control"
+              placeholder="Enter RePassword"
+              id="RePassword"
+            />
+
+            <div class="parent" id="validationRePassword">
+              
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="btn1">
+          <button class="contact-btn btn btn-outline-danger position-static">Submit</button>
+        </div>
+        
+      </div>
+    </div>
+    <!-- End Contact US -->
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,227 @@
+body
+{
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+} 
+
+li
+{
+    cursor: pointer;
+}
+
+/* Slider */ 
+.first-slide
+{
+    width: 15% ;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    z-index: 99999999999999999;
+}
+
+.slider .head
+{
+    margin-left: 0 ;
+    z-index: 999999999999;
+}
+
+.slider .first-slide .items a
+{
+    border: none !important;
+    background: none !important;
+    color: #f9f6f6;
+    font-size: 16px;
+    transition: all .5s ease-in-out;
+}
+
+.slider .first-slide .items a:hover
+{
+    color: red;
+}
+
+.first-slide a
+{
+    display: block !important;
+    padding: 13px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight:400;
+    transition: all .5s ease-in-out;
+}
+
+.first-first-slide a:hover
+{
+    color: red;
+}
+
+.first-slide .items
+{
+    padding-bottom: 300px;
+}
+
+.slide-social
+{
+    display: flex;
+}
+
+.slide-social li
+{
+    padding: 0px 10px;
+}
+
+.slide-social i
+{
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+.slide-social i:hover
+{
+    color: red;
+}
+
+
+.copyRight
+{
+    color: #ccc;
+    font-size: 15px;
+    text-align: center;
+}
+
+.second-slide 
+{
+    height: 100vh;
+    width: 59px;
+    position: fixed;
+    left: 15%;
+    display: flex;
+    z-index: 9999999999999999;
+}
+
+.second-slide .img
+{
+    width: 30px;
+    height: 48px;
+    padding: 20px 0;
+}
+
+.second-slide .img img
+{
+    width: 100%;
+    height: 48px;
+}
+
+.footer-social
+{
+    bottom: 20px;
+
+}
+
+.footer-social ul
+{ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Btn
+{
+    margin-left : 15%;
+    cursor:pointer;
+    position: absolute;
+    top: 300px;
+    display: block;
+}
+
+.close
+{
+    display: none;
+}
+
+.Btn span
+{
+    font-size: 32px;
+    font-weight: 400;
+    color: #414658;
+}
+/* End Slider */
+
+/* Start Home */
+.container
+{
+    width: 75%;
+    
+}
+input
+{
+    width: 47% !important;
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid #8C8C8C !important;
+    border-radius: 0% !important;
+    color: #8C8C8C !important;
+}
+
+::placeholder
+{
+    text-align: center;
+}
+
+
+.movie:hover .layer {
+
+    top: 0;
+
+    transition: all 1s;
+
+}
+
+
+
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    transition: all 1s;
+}
+/* End Home */
+
+/* Contact US */
+
+.contact-us input
+{   
+    width: 95% !important;
+    color: white !important;
+}
+
+.contact-us .col-lg-6
+{
+    padding: 20px 0;
+    
+}
+.validationName
+{
+    background-color: #f8d7da;
+    padding: 10px;
+    width: 95%;
+    /* display: none; */
+}
+
+
+.contact-btn
+{
+    margin-left:0 ;
+}
+
+/* End Contact US */
+
